@@ -1,0 +1,38 @@
+/**@format*/
+body {
+  background: #f7f8fc;
+  font-size: 16px;
+  margin: 0; }
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 15.938em 1fr; }
+
+#sidebar {
+  background: #363740;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-top: 37px; }
+
+.logo {
+  font-size: 1.188em;
+  text-decoration: none;
+  color: #a4a6b3;
+  line-height: 1.684em;
+  margin: 37px 0 0 32px;
+  margin-left: 32px; }
+  .logo svg {
+    vertical-align: middle; }
+
+.side-menu {
+  width: 100%;
+  margin-top: 59px; }
+  .side-menu a {
+    font-size: 1em;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 2em;
+    border-left: 0.1875em solid transparent;
+    color: blue; }
+
+/*# sourceMappingURL=style.css.map */

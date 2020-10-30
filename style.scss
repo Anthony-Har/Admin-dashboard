@@ -1,0 +1,319 @@
+/**@format*/
+
+$body_bg: #f7f8fc;
+body {
+    background: $body_bg;
+    font-size: 16px; 
+    margin: 0;
+}
+#wrapper{
+    display:grid;
+    grid-template-columns: 15.938em 1fr;
+}
+#sidebar {
+    background: #363740;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-top: 37px;
+    
+}
+.logo{
+    font-size: 1.188em;
+    text-decoration: none;
+    color: #a4a6b3;
+    line-height: 1.684em;
+    margin: 37px 0 0 32px;
+    margin-left: 32px
+    svg {
+        vertical-align: middle
+    }
+}
+.side-menu{
+    width: 100%;
+    margin-top: 59px;
+    a {
+        font-size: 1em;
+        text-decoration: none;
+        display: block;
+        padding: 0 0 0 2em;
+        border-left: 0.1875em solid transparent;
+        color: white
+    }
+.divider {
+    background-color: transparent;
+    width: 100%;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0
+}
+.overview{
+
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx
+}
+.icon_overview
+{
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2)
+}
+.tickets
+{
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx
+}
+.icon_tickets{
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2)
+}
+.ideas{
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx
+}
+.icon_ideas{
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2)
+}
+.contacts{
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx
+}
+.icon_contacts {
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2) 
+} 
+.agents{
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx
+}
+.icon_agents {
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2) 
+}
+.articles {
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx
+}
+.icon_articles {
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2)   
+}
+.settings {
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx 
+}
+.icon_settings {
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2) 
+}
+.subscription {
+    background-color: transparent;
+    height: 32px;
+    width: 268px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #333;
+    fill: #333;
+    stroke: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: default;
+    letter-spacing: .005em; 
+    height: 20px;
+    width: 159px;
+    left: 72px;
+    top: 18px;
+    border-radius: nullpx    
+}
+.icon_subscription{
+    background-color: transparent;
+    padding: 0 0 0 7px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    min-width: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2)     
+}
+
+}
